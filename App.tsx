@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar'
+import { StatusBar } from 'react-native'
 import { StyleSheet, Text, View } from 'react-native'
 
 export default function App() {
@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.title}>Projeto TCC</Text>
       <Text style={styles.subtitle}>Estrutura inicial do aplicativo.</Text>
-      <StatusBar style="auto" />
+      <StatusBar barStyle="dark-content" />
     </View>
   )
 }
@@ -16,3 +16,4 @@ const styles = StyleSheet.create({
   title: { fontSize: 28, fontWeight: '700', color: '#172033' },
   subtitle: { marginTop: 8, fontSize: 16, color: '#475569' },
 })
+
