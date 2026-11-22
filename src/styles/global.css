@@ -1,0 +1,4 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #172033; background: #f8fafc; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+main { width: min(100% - 2rem, 72rem); margin: 0 auto; padding: 4rem 0; }
